@@ -1,7 +1,7 @@
 {
     "name": "CarnivalMusic",
     "description": "Open-Source bot to play songs in your Telegram's Group Voice Chat. Powered by PyTgCalls",
-    "keywords": [
+  "keywords": [
     "python",
     "telegram",
     "bot",
@@ -52,11 +52,6 @@
             "required": true,
             "value": "zaid assistant"
         },
-        "OWNER_NAME": {
-            "description": "fill with your username without @",
-            "required": false,
-            "value": "Timesisnotwaiting"
-        },
         "API_ID": {
             "description": "your App ID from my.telegram.org/apps",
             "required": true
@@ -74,7 +69,6 @@
             "required": true,
             "value": "300"
         },
-
         "UPDATES_CHANNEL": {
             "description": "if you have channel fill the channel username here without @",
             "required": false,
@@ -85,6 +79,10 @@
             "required": false,
             "value": "Zaid_Support"
         }
+    },
+    "buildpacks": [
+    {
+      "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
     },
     {
       "url": "heroku/python"
