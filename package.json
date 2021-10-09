@@ -1,7 +1,8 @@
- {
-        "name": "my-project",
-        "version": "1.5.0",
-	 "engines": "node": "15.x"
-	 "description": "Express server project using compression",
-	 "keywords": ["server", "osiolabs", "express", "compression"]
-    }
+{
+  "name": "myapp",
+  "description": "a really cool app",
+  "version": "1.0.0",
+  "engines": {
+    "node": "15.x"
+  }
+}
