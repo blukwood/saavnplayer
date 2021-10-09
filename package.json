@@ -4,12 +4,6 @@
 	 "engines": {
 		 "node": "15.x"
 	 }
-        "description": "Express server project using compression",
-		"author": "Jon Church",
-		"contributors": [{
-			"name": "Amber Matz",
-			"email": "example@example.com",
-			"url": "https://www.osiolabs.com/#team"
-		}],
-		"keywords": ["server", "osiolabs", "express", "compression"]
+	 "description": "Express server project using compression",
+	 "keywords": ["server", "osiolabs", "express", "compression"]
     }
