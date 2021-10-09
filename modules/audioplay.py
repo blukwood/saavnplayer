@@ -9,7 +9,6 @@ from pyrogram.types import Message, Voice
 
 from services.callsmusic import callsmusic, queues
 
-import services.converter
 from services.downloaders import youtube
 
 from config import BOT_NAME as bn, DURATION_LIMIT, UPDATES_CHANNEL, BG_IMAGE, SUPPORT_GROUP
